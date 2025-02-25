@@ -440,7 +440,7 @@ def main():
         with st.sidebar.expander("⚙️ Settings"):
             decimal_places = st.slider("Decimal Places", 0, 4, 2)
             show_percentages = st.checkbox("Show % Values", value=True)
-            dark_mode = st.checkbox("Dark Mode", value=False)
+            dark_mode = st.checkbox("Dark Mode", value=True)
 
         # Keep existing helpful notes section
         st.sidebar.markdown("---")
